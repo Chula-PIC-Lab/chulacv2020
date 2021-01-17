@@ -1,0 +1,14 @@
+name: chulacv2020
+channels:
+- conda-forge
+- defaults
+dependencies:
+- jupyterlab
+- ipywidgets
+- tqdm
+- numpy
+- matplotlib
+- scikit-learn
+- nodejs
+- pip
+- opencv
