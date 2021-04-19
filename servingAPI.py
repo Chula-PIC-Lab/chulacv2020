@@ -7,6 +7,9 @@
 ## wget https://nvidia.box.com/shared/static/8xgbee5ghhb92i9rrcr04yymg0n3x3t0.whl -O onnxruntime_gpu-1.7.0-cp38-cp38-linux_aarch64.whl
 ## pip install onnxruntime_gpu-1.7.0-cp38-cp38-linux_aarch64.whl
 
+## Start API
+## uvicorn servingAPI:app --host 0.0.0.0 --port 8500
+
 import cv2
 import onnxruntime as rt
 import numpy as np
