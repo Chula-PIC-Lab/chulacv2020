@@ -43,8 +43,7 @@ while True:
                 cv2.rectangle(outputImage, (x1,y1), (x2,y2), (0,255,0), 3)
         
         cv2.imshow("Output", outputImage)
-        if cv2.waitKey(1) & 0xFF == ord('q'): # Press 'q' to exit
-            break 
+        cv2.waitKey(1)
     else:
         print('Cannot open camera')
         break
